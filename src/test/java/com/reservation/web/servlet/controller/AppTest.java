@@ -1,4 +1,4 @@
-package com.reservation.web.servlet;
+package com.reservation.web.servlet.controller;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package com.reservation.web.servlet;
+package com.reservation.web.servlet.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
