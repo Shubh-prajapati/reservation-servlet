@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reservation Details</title>
+</head>
+<body>
+<div class="container">
+    <div class="form-container">
+        <h2>Enter the product details</h2>
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <label for="reservation">Reservation ID:</label>
+                <input type="text" class="form-control" id="reservation" name="reservation" required>
+            </div>
+            <div class="form-group">
+                <label for="train">Train Number:</label>
+                <input type="text" id="train" name="train" required>
+            </div>
+            <div class="form-group">
+                <label for="class">Class Type:</label>
+                <input type="text"  class="form-control" id="class" name="class" required>
+            </div>
+            <div class="form-group">
+                <label for="pnrno">PNR NO:</label>
+                <input type="text" class="form-control" id="pnrno" name="pnrno" required>
+            </div>
+
+            <div class="form-group">
+                <label for="journey">Journey Date:</label>
+                <input type="text" class="form-control" id="journey" name="journey" required>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

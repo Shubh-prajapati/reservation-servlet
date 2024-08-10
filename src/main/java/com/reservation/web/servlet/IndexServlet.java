@@ -20,11 +20,11 @@ public class IndexServlet extends HttpServlet {
         response.getWriter().println("<h1>Welcome to the Train Reservation Management</h1>");
         response.getWriter().println("<p>Select a form to manage the respective entity:</p>");
         response.getWriter().println("<ul>");
-        response.getWriter().println("<li><a href=''>User From</a></li>");
-        response.getWriter().println("<li><a href=''>Station Form</a></li>");
+        response.getWriter().println("<li><a href='user.html'>User From</a></li>");
+        response.getWriter().println("<li><a href='station.html'>Station Form</a></li>");
         response.getWriter().println("<li><a href=''>Reservation  Form</a></li>");
-        response.getWriter().println("<li><a href=''>Payment Form</a></li>");
-        response.getWriter().println("<li><a href=''>Train Form</a></li>");
+        response.getWriter().println("<li><a href='payment.html'>Payment Form</a></li>");
+        response.getWriter().println("<li><a href='train.html'>Train Form</a></li>");
         response.getWriter().println("</ul>");
         response.getWriter().println("</body></html>");
     }
