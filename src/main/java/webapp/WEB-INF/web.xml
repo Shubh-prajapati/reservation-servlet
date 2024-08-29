@@ -8,58 +8,6 @@
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 
-    <servlet>
-        <servlet-name>indexServlet</servlet-name>
-        <servlet-class>com\reservation\web\servlet\IndexServlet.java</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>indexServlet</servlet-name>
-        <url-pattern>/indexServlet</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>userServlet</servlet-name>
-        <servlet-class>com/reservation/web/servlet/UserServlet.java</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>userServlet</servlet-name>
-        <url-pattern>/user-servlet</url-pattern>
-    </servlet-mapping>
 
 
-    <servlet>
-        <servlet-name>trainServlet</servlet-name>
-        <servlet-class>com/reservation/web/servlet/TrainServlet.java</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>trainServlet</servlet-name>
-        <url-pattern>/train-servlet</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>stationServlet</servlet-name>
-        <servlet-class>com/reservation/web/servlet/StationServlet.java</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>stationServlet</servlet-name>
-        <url-pattern>/station-servlet</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>reservationServlet</servlet-name>
-        <servlet-class>com/reservation/web/servlet/ReservationServlet.java</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>reservationServlet</servlet-name>
-        <url-pattern>/reservation-servlet</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>paymentServlet</servlet-name>
-        <servlet-class>com/reservation/web/servlet/PaymentServlet.java</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>paymentServlet</servlet-name>
-        <url-pattern>/payment-servlet</url-pattern>
-    </servlet-mapping>
 </web-app>

@@ -1,4 +1,4 @@
-package com.reservation.web.servlet.controller;
+package com.reservation.web.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -22,7 +22,7 @@ public class IndexServlet extends HttpServlet {
         response.getWriter().println("<ul>");
         response.getWriter().println("<li><a href='user.html'>User From</a></li>");
         response.getWriter().println("<li><a href='station.html'>Station Form</a></li>");
-        response.getWriter().println("<li><a href=''>Reservation  Form</a></li>");
+        response.getWriter().println("<li><a href='reservation.html'>Reservation  Form</a></li>");
         response.getWriter().println("<li><a href='payment.html'>Payment Form</a></li>");
         response.getWriter().println("<li><a href='train.html'>Train Form</a></li>");
         response.getWriter().println("</ul>");
